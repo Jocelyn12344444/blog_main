@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class category(models.Model):
+class   category(models.Model):
     title = models.CharField(max_length=225)
 
     class Meta:
